@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30-Sep-2023, 9:31:54 PM
+    Author     : jay
+*/
+#container
+{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    padding: 50px 100px 50px 170px;
+}
+#page
+{
+    height: 600px;
+    width: 950px;
+    background-color: white;
+    display: flex;
+    box-shadow: 5px 5px grey;
+}
+#pageOne
+{
+    height:550px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+#sign
+{
+    color: grey;
+    height: 35px;
+    font-size: 25px;
+   padding-left: 20px;
+   margin-top: 10px;
+     /*padding-top: 10px;*/ 
+}
+#pageTwo
+{
+    height:550px;
+    width: 50%;
+    background-image: url("signUp.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 550px; 
+}
+input
+{
+    height: 30px;
+    width: 400px;
+    border: none;
+    border-bottom: 3px solid grey;
+}
+#buttons button
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+button
+{
+    height: 30px;
+    width: 190px;
+    background-color: blue;
+    border: none;
+}
+#pageOne div
+{
+    height: 30px;
+    width:540;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
